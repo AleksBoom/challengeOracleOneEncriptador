@@ -1,0 +1,101 @@
+body{
+    background: #F3F5FC;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+
+}
+header{
+    margin: 20px;
+}
+h1{
+    width: Fixed (120px);
+    height: Fixed (48px);
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+}
+.caja{
+    width: 940px;
+    margin: 15px auto;  
+    position: relative;
+    text-align: center;
+}
+
+.panelIzquierdo{
+    background: #ffffff;
+    width: 60%;
+    height: 550px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    
+
+}
+textarea{
+    margin: 10px;
+    width: 90%;
+    border: none;
+    resize: none;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+    color: gray;
+    text-transform: lowercase;
+   
+}
+.botonesPanel{
+    margin: 10px;
+    width: 90%;
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    color: gray;
+
+
+}
+
+.botonesPanelEncrip{
+    background: darkblue;
+    Color: white;
+    border: none;
+    padding: 15px;
+    width: 150px;
+    border-radius: 24px;   
+    display: inline-block;
+    font-size: 15px;
+
+    
+    
+}
+
+.panelDerecho{
+    background: #ffffff;
+    width: 38%;
+    height: 550px;
+    border-radius: 15px;
+    display: inline-block;
+    position: relative;
+
+}
+.imagenDerecha{
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+}
+footer{
+    background: #046782;
+    height: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+  
+
+

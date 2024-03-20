@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Challenge-Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      
+
+</head>
+<body>
+    <header> 
+        <h1></h1><img src="img/Logo.png" alt="LogoDeAlura"></h1>
+    </header>
+    <main>
+        <div class="caja">
+                    <section class="panelIzquierdo">
+                            <textarea id="encriptaTexto" placeholder="Ingresa el texto aqui"></textarea>
+                            <div class="botonesPanel">
+                                <p>No utilices mayusculas, acentos o caracteres especiales</p>
+                                <button class="botonesPanelEncrip" onclick="btnEncriptar()">Encriptar</button>
+                                <button class="botonesPanelEncrip" onclick="btnDesEncriptar()">Desencriptar</button>
+                            </div>
+                        </section>
+                    <aside class="panelDerecho">
+                        <img class="imagenDerecha" src="img/Muñeco.png" alt="">
+                        <textarea  id="mensajeEncriptado" cols="30" rows="10"></textarea>
+                    </aside>
+        </div>
+    </main>
+   <footer>
+       <p>Alexboom Garcia</p>
+   </footer> 
+    <script src="script.js"></script>
+</body>
+</html>
