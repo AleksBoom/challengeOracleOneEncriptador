@@ -9,6 +9,18 @@ const matriz_encrip = [
     ["u","ufat"],
 
 ];
+           
+function validacionTexto(e){
+    key = e.keyCode || e.which;
+    tecla= String.fromCharCode(key).toString();
+    letras = "qwertyuiopñlkjhgfdsazxcvbnm";
+    if(letras.indexOf(tecla)==-1){
+        alert("Solo puedes ingresar letras");
+        return false;
+    }
+}
+
+
  function btnEncriptar(){
      const texto = encriptar(campoTexto.value);
      campoMensajeEn.value = texto;

@@ -17,7 +17,8 @@
     <main>
         <div class="caja">
                     <section class="panelIzquierdo">
-                            <textarea id="encriptaTexto" placeholder="Ingresa el texto aqui"></textarea>
+                    
+                            <textarea onkeypress="return validacionTexto(event)" id="encriptaTexto" placeholder="Ingresa el texto aqui"></textarea>
                             <div class="botonesPanel">
                                 <p>No utilices mayusculas, acentos o caracteres especiales</p>
                                 <button class="botonesPanelEncrip" onclick="btnEncriptar()">Encriptar</button>
